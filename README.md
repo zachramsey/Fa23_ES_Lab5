@@ -2,9 +2,9 @@
 
 ---
 
-Mid-lab review: November 8  
-*Program can successfully demonstrate RS232-based communication and reading of ADC voltage values.*  
-*Develop a test approach s.t. correctness of read ADC & generated DAC voltages can be easily demonstrated.*  
+Mid-lab review: November 8 <br>
+*Program can successfully demonstrate RS232-based communication and reading of ADC voltage values.* <br>
+*Develop a test approach s.t. correctness of read ADC & generated DAC voltages can be easily demonstrated.* <br>
 Deadline: November 15
 
 ---
@@ -16,7 +16,7 @@ Gain some experience with C-based programming of AVR uCs, serial interface proto
 Build a remotely controllable analog signal/data logging system using:
 - The built-in A/D converter of the ATmega328P controller
 - The MAX518, an external two-channel D/A converter with an I2C interface.
-The system will have an RS232 interface (9600 8N1) that will be connected to your laptop/computer.  
+The system will have an RS232 interface (9600 8N1) that will be connected to your laptop/computer. <br>
 The computer user will be able to trigger analog voltage measurements and set the output voltage for both channels of the DAC via commands sent through the RS232 interface.
 
 ---
@@ -30,7 +30,7 @@ The computer user will be able to trigger analog voltage measurements and set th
 
 ---
 
-Nominal message exchange between terminal user and analog interface system, which will send information back to the terminal screen.  
+Nominal message exchange between terminal user and analog interface system, which will send information back to the terminal screen. <br>
 _Use the Arduino IDE Serial Monitor functionality as a terminal emulator._  
 
 **BOLD** text is typed by the user on the keyboard. _ITALICIZED_ text represents responses by the analog interface system.
@@ -53,6 +53,6 @@ _DAC channel 1 set to 3.46 V (177d)_
 ---
 
 **Notes:**
-Available libraries for I2C and RS232 communication can be used.  
-Used libraries must be mentioned in post-lab report.  
+Available libraries for I2C and RS232 communication can be used. <br>
+Used libraries must be mentioned in post-lab report. <br>
 Some libraries need to be configured for the specific AVR microcontroller used.
