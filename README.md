@@ -16,7 +16,7 @@ Gain some experience with C-based programming of AVR uCs, serial interface proto
 Build a remotely controllable analog signal/data logging system using:
 - The built-in A/D converter of the ATmega328P controller
 - The MAX518, an external two-channel D/A converter with an I2C interface.  
-<br>
+
 The system will have an RS232 interface (9600 8N1) that will be connected to your laptop/computer. <br>
 The computer user will be able to trigger analog voltage measurements and set the output voltage for both channels of the DAC via commands sent through the RS232 interface.
 
