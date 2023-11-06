@@ -33,7 +33,7 @@ Some libraries need to be configured for the specific AVR microcontroller used.
 |:------- |:------------------------------------------ |:--------- |
 | G       | Get single voltage measurement from ADC    | no arguments <br> **The ATmega328P ADC must be used in 10-bit mode!** |
 | M,n,dt  | Get multiple voltage measurements from ADC | n: # of measurements ~ *n ∈ [2, 20]* <br> dt: time between measurements ~ *n ∈ [1, 10] s*
-| S,c,v   | Set DAC output voltage                     | c: DAC channel # ~ c ∈ {0,1} <br> v: output voltage ~ *float, format: "n.nn" V* <br> **Value sent to DAC must first be converted to** <br> **decimal s.t. quantization error is minimized.** |
+| S,c,v   | Set DAC output voltage                     | c: DAC channel # ~ c ∈ {0,1} <br> v: output voltage ~ *float, format: "n.nn" V* <br> **Value sent to DAC must first be converted to decimal s.t. quantization error is minimized.** |
 
 ---
 
