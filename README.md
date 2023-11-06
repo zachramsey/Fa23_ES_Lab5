@@ -51,7 +51,7 @@ _DAC channel 1 set to 3.46 V (177d)_
 
 ---
 
-**Notes:**
+**Notes:** <br>
 Available libraries for I2C and RS232 communication can be used. <br>
 Used libraries must be mentioned in post-lab report. <br>
 Some libraries need to be configured for the specific AVR microcontroller used.
