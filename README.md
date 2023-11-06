@@ -4,7 +4,8 @@
 
 **Mid-lab review: November 8** <br>
 *Program can successfully demonstrate RS232-based communication and reading of ADC voltage values.* <br>
-*Develop a test approach s.t. correctness of read ADC & generated DAC voltages can be easily demonstrated.* <br>
+*Develop a test approach s.t. correctness of read ADC & generated DAC voltages can be easily demonstrated.* <br>  
+
 **Deadline: November 15**
 
 ---
