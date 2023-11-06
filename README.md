@@ -19,7 +19,12 @@ Build a remotely controllable analog signal/data logging system using:
 - The MAX518, an external two-channel D/A converter with an I2C interface.  
 
 The system will have an RS232 interface (9600 8N1) that will be connected to your laptop/computer. <br>
-The computer user will be able to trigger analog voltage measurements and set the output voltage for both channels of the DAC via commands sent through the RS232 interface.
+The computer user will be able to trigger analog voltage measurements and set the output voltage for both channels of the DAC via commands sent through the RS232 interface. <br>  
+
+**Notes:** <br>
+Available libraries for I2C and RS232 communication can be used. <br>
+Used libraries must be mentioned in post-lab report. <br>
+Some libraries need to be configured for the specific AVR microcontroller used.
 
 ---
 
@@ -49,10 +54,3 @@ _t=40 s, v=1.250 V_ <br>
 
 **S,1,3.45** <br>
 _DAC channel 1 set to 3.46 V (177d)_
-
----
-
-**Notes:** <br>
-Available libraries for I2C and RS232 communication can be used. <br>
-Used libraries must be mentioned in post-lab report. <br>
-Some libraries need to be configured for the specific AVR microcontroller used.
