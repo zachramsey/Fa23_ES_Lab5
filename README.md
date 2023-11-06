@@ -36,7 +36,6 @@ _Use the Arduino IDE Serial Monitor functionality as a terminal emulator._
 
 **BOLD** text is typed by the user on the keyboard. _ITALICIZED_ text represents responses by the analog interface system.
 
-```
 **G**
 _v=0.244 V_
 
@@ -49,7 +48,6 @@ _t=40 s, v=1.250 V_
 
 **S,1,3.45**
 _DAC channel 1 set to 3.46 V (177d)_
-```
 
 ---
 
