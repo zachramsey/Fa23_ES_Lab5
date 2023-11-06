@@ -28,16 +28,15 @@ The computer user will be able to trigger analog voltage measurements and set th
 | G       | Get single voltage measurement from ADC    | no arguments <br> **The ATmega328P ADC must be used in 10-bit mode!** |
 | M,n,dt  | Get multiple voltage measurements from ADC | n: # of measurements ~ *n ∈ [2, 20]* <br> dt: time between measurements ~ *n ∈ [1, 10] s*
 | S,c,v   | Set DAC output voltage                     | c: DAC channel # ~ c ∈ {0,1} <br> v: output voltage ~ *float, format: "n.nn" V* <br> **Value sent to DAC must first be converted to** <br> **decimal s.t. quantization error is minimized.** |
-| ------- | ------------------------------------------ | --------- |
 
 ---
 
 Nominal message exchange between terminal user and analog interface system, which will send information back to the terminal screen.
-_Use the Arduino IDE Serial Monitor functionality as terminal emulator._
+_Use the Arduino IDE Serial Monitor functionality as a terminal emulator._
 
 **BOLD** text is typed by the user on the keyboard. _ITALICIZED_ text represents responses by the analog interface system.
 
-'''
+```
 **G**
 _v=0.244 V_
 
@@ -50,7 +49,7 @@ _t=40 s, v=1.250 V_
 
 **S,1,3.45**
 _DAC channel 1 set to 3.46 V (177d)_
-'''
+```
 
 ---
 
