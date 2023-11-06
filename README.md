@@ -2,10 +2,10 @@
 
 ---
 
-Mid-lab review: November 8 <br>
+**Mid-lab review: November 8** <br>
 *Program can successfully demonstrate RS232-based communication and reading of ADC voltage values.* <br>
 *Develop a test approach s.t. correctness of read ADC & generated DAC voltages can be easily demonstrated.* <br>
-Deadline: November 15
+**Deadline: November 15**
 
 ---
 
@@ -15,7 +15,7 @@ Gain some experience with C-based programming of AVR uCs, serial interface proto
 ## Description
 Build a remotely controllable analog signal/data logging system using:
 - The built-in A/D converter of the ATmega328P controller
-- The MAX518, an external two-channel D/A converter with an I2C interface.
+- The MAX518, an external two-channel D/A converter with an I2C interface. <br>
 The system will have an RS232 interface (9600 8N1) that will be connected to your laptop/computer. <br>
 The computer user will be able to trigger analog voltage measurements and set the output voltage for both channels of the DAC via commands sent through the RS232 interface.
 
