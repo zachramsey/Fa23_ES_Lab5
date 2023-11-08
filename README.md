@@ -1,6 +1,10 @@
 # Fall 2023 Embedded Systems Lab 5
 
 ---
+### Libraries Used
+[twi_master](https://github.com/Sovichea/avr-i2c-library)
+
+---
 
 **Mid-lab review: November 8** <br>
 *Program can successfully demonstrate RS232-based communication and reading of ADC voltage values.* <br>
